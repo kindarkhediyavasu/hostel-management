@@ -5,4 +5,30 @@
 }
 :root{
     font-family:Arial, Helvetica, sans-serif;
+  /* Primary colors */
+  --primary-color: #2563eb;
+  --primary-light: #60a5fa;
+  --primary-white:#fff;
+
+  /* Sidebar colors */
+  --sidebar-bg: #111827;
+  --sidebar-hover: #374151;
+
+  /* Background colors */
+  --body-bg: #f3f4f6;
+  --card-bg: #ffffff;
+
+  /* Text colors */
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+
+  /* Border colors */
+  --border-color: #e5e7eb;
+
+  /* Other 
+  --border-radius: 12px;
+  --transition: 0.3s ease;*/
 }
+
+
+

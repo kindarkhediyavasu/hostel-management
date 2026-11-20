@@ -1,18 +1,17 @@
 .app_container{
-    display:grid;
-    grid-template-columns:230px 1fr;
+    display:grid; 
+     grid-template-columns:230px 1fr;
     grid-template-rows:50px 1fr;
-    grid-template-areas:"sidebar header"
-                        "sidebar dashboard"
-    ;
+    grid-template-areas:"sidebar-layout header-layout"
+                        "sidebar-layout main-layout" ;
 }
-.sidebar{
-    grid-area:sidebar;
+.sidebar-layout{
+    grid-area:sidebar-layout;
 }
-.header{
-    grid-area:header;
+.header-layout{
+    grid-area:header-layout;
 
 }
-.dashboard{
-   grid-area:dashboard;
+.main-layout{
+   grid-area:main-layout;
 }
