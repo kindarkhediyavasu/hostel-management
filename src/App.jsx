@@ -1,8 +1,11 @@
+import "./App.css";
+import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 
 function App(){
-    return <>
+    return <div className="app_container">
         <Sidebar></Sidebar>
-    </>
+        <Header/>
+    </div>
 }
 export default App;

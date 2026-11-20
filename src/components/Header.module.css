@@ -1,0 +1,33 @@
+.headerContainer{
+    background-color:#0000001a;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-inline:20px;
+}
+.headerContainer__search{
+    display:flex;
+    place-items:center;
+    gap:10px;
+    font-size:20px;
+    color:#0e0d0d7d;
+}
+.headerContainer__search input{
+    background:transparent;
+    border:none;
+    outline:none;
+    font-size:18px;
+}
+.headerContainer__profile{
+    display:flex;
+    place-items:center;
+    gap:20px;
+    font-size:20px;
+    color:#0e0d0d7d;
+}
+.headerContainer__profile span{
+    color:#000;
+    font-size:18px;
+    text-transform:capitalize;
+    font-weight:600;
+}

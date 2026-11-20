@@ -1,0 +1,5 @@
+.app_container{
+    display:grid;
+    grid-template-columns:230px 1fr;
+    grid-template-rows:50px 1fr;
+}
