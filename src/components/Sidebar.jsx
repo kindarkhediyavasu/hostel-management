@@ -1,7 +1,7 @@
 import style from "./Sidebar.module.css";
 import { FaBed, FaCog, FaCommentDots, FaHome, FaMoneyBill, FaUsers } from "react-icons/fa";
 function Sidebar(){
-    return <aside className={style.sidebar}>
+    return <aside className={`${style.sidebar} sidebar`}>
         <div className={style.sidebar__logo}>
             <h2>hostel<span>Hub</span></h2>
         </div>

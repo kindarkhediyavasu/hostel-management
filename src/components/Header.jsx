@@ -1,7 +1,7 @@
 import style from "./Header.module.css";
 import { FaBell, FaSearch, FaUserCircle } from "react-icons/fa";
 function Header(){
-    return <header className={style.headerContainer}>
+    return <header className={`${style.headerContainer} header`}>
         <div className={style.headerContainer__search}>
             <FaSearch/>
             <input type="text" placeholder="Search...."/>
