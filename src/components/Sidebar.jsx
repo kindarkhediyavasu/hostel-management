@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import style from "./Sidebar.module.css";
 import { FaBed, FaCog, FaCommentDots, FaHome, FaMoneyBill, FaUsers } from "react-icons/fa";
 function Sidebar(){
@@ -8,28 +9,40 @@ function Sidebar(){
         <nav className={style.sidebar__navigation}>
             <ul>
                 <li>
-                    <FaHome/>
-                    <span>dashboard</span>
+                    <Link to="/">
+                        <FaHome/>
+                        <span>dashboard</span>
+                    </Link>
                 </li>
                  <li>
-                    <FaUsers/>
-                    <span>Students</span>
+                    <Link to="/students">
+                        <FaUsers/>
+                        <span>Students</span>
+                    </Link>
                 </li>
                  <li>
-                    <FaBed/>
-                    <span>Rooms</span>
+                    <Link to="/rooms">
+                        <FaBed/>
+                        <span>Rooms</span>
+                    </Link>
                 </li>
                  <li>
-                    <FaMoneyBill/>
-                    <span>Payments</span>
+                    <Link to="/payments">
+                        <FaMoneyBill/>
+                        <span>Payments</span>
+                    </Link>
                 </li>
                  <li>
-                     <FaCommentDots/>
-                    <span>Complaints</span>
+                    <Link to="/complaints">
+                        <FaCommentDots/>
+                        <span>Complaints</span>
+                    </Link>
                 </li>
                  <li>
-                     <FaCog/>
-                    <span>settings</span>
+                    <Link to="settings">
+                        <FaCog/>
+                        <span>settings</span>
+                    </Link>
                 </li>
             </ul>
         </nav>

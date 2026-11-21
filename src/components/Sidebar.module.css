@@ -23,17 +23,17 @@
     gap:10px;
     text-transform:capitalize;
 }
-.sidebar__navigation li{
-    font-size:20px;
-    padding:8px;
+.sidebar__navigation a{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 0px 10px 20px;
     border-radius:5px;
-    transition:0.3s;
-}
-.sidebar__navigation span{
     font-size:18px;
-    padding-left:20px
+    text-decoration:none;
+    color:var(--primary-white); 
 }
-.sidebar__navigation li:hover{
+.sidebar__navigation a:hover{
      background-color:var(--sidebar-hover); 
      color:var(--primary-light);
 }

@@ -1,7 +1,7 @@
 import "./App.css";
-import Dashboard from "./components/Dashboard";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
+import { Outlet } from "react-router-dom";
 
 function App(){
     return <div className="app_container">
@@ -12,7 +12,7 @@ function App(){
             <Header/>
         </div>
         <div className="main-layout">
-                <Dashboard/>
+                <Outlet/>
         </div>
        
     </div>
