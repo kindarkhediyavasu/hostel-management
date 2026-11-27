@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import { Outlet } from "react-router-dom";
+import StudentsContext from "./store/StudentsContext";
 
 function App(){
     return <div className="app_container">
@@ -12,7 +13,9 @@ function App(){
             <Header/>
         </div>
         <div className="main-layout">
+            <StudentsContext>
                 <Outlet/>
+            </StudentsContext>
         </div>
        
     </div>
