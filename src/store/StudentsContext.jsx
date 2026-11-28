@@ -6,7 +6,6 @@ function reducer(state,action){
         return student.id !== action.studentId;
        });
     }else if(action.type === "ADD_NEW_STUDENT"){
-        console.log("payload is ",action.payload);
         return [...state,action.payload];
     }else if (action.type === "EDIT_STUDENT"){
         return  state.map((student) => {

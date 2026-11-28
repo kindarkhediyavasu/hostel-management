@@ -100,6 +100,15 @@
     cursor:pointer;
 }
 
+.student_form_box_wrapper p{
+    color:#ff0000;
+    font-size:14px;
+    padding:5px 0px 0px 5px;
+}
+.student_form_box_wrapper p::first-letter{
+    text-transform:capitalize;
+}
+
 @media(max-width:600px){
    .student_form{
     grid-template-columns:1fr;
